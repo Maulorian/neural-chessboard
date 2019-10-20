@@ -1,6 +1,8 @@
 import utils, debug
 
 import scipy, cv2, pyclipper, numpy as np
+import matplotlib
+matplotlib.use("agg")
 import matplotlib.path, matplotlib.pyplot as plt
 import matplotlib.path as mplPath
 import collections, itertools, random, math
